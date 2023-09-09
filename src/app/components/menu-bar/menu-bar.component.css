@@ -1,0 +1,20 @@
+.container__menu-bar>ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.container__menu-bar>ul>li {
+  margin-right: 20px;
+  list-style: none;
+}
+
+.container__menu-bar li:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+
+.container__menu-bar a:hover {
+  border: solid 1px red;
+  background-color: red;
+  border-radius: 10px;
+}
